@@ -1,0 +1,36 @@
+.main-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.notes-titles {
+    width: 33vw;
+    border: 1px solid black;
+    height: 100vh;
+}
+
+.note-title {
+    border: 1px solid black;
+    height:10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.note-title:hover {
+    cursor:pointer
+}
+
+.note-display {
+    width: 66vw;
+    height: 100vh;
+}
+
+.note {
+    border: 1px solid black;
+}
+
+.selected {
+    background-color: blue;
+}
